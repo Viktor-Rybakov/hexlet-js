@@ -1,3 +1,3 @@
-import _ from "lodash";
+import printLast from "./src/index.js";
 
-console.log(_.last(["one", "two"]));
+printLast(["one", "two"]);
